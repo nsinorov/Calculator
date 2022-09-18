@@ -1,1 +1,1 @@
-##Will create a smart Console Calculator using C#
+## Will be working on a Calculator Project. It will have the basic "+" ; "-" ; "*" and "/". I could also add %.
