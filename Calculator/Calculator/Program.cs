@@ -55,6 +55,9 @@ namespace Calculator
             }
 
             Console.WriteLine($"Your result is: {result}");
+            Console.WriteLine();
+            Console.WriteLine("All rights received@");
+            Console.WriteLine("2022");
           
         }
 
