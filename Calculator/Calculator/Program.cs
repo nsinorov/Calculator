@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Calculator
@@ -36,9 +36,9 @@ namespace Calculator
             }
             if (charInput == minus)
             {            
-                if(numberOne > numberTwo)
+                if(numberOne > numberTwo && numberTwo < 0)
                 {
-                    result = (numberOne - numberTwo) - (numberOne);
+                    result = numberTwo - numberOne + numberOne + numberOne;                 
                 }
                 else
                 {
