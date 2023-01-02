@@ -16,10 +16,10 @@ namespace Calculator
             Console.WriteLine("Enter your first number");
             int numberOne = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Now choose from the provided operations, which are: '+', '-', 'x', '/' ");
+            Console.WriteLine("Now choose from the provided operations, which are: '+', '-', '*', '/' ");
             char sum = '+';
             char minus = '-';
-            char multiply = 'x';
+            char multiply = '*';
             char division = '/';
             char charInput = char.Parse(Console.ReadLine());
 
