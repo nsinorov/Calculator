@@ -21,6 +21,7 @@ namespace Calculator
             char minus = '-';
             char multiply = '*';
             char division = '/';
+
             char charInput = char.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter your second number");
@@ -30,20 +31,31 @@ namespace Calculator
 
             int result = 0;
 
+            result = CalculatingRealNums(numberOne, sum, minus, multiply, division, charInput, numberTwo, result);
+
+            Console.WriteLine($"Your result is: {result}");
+            Console.WriteLine();
+            Console.WriteLine("All rights received@");
+            Console.WriteLine("2022");
+
+        }
+
+        public static int CalculatingRealNums(int numberOne, char sum, char minus, char multiply, char division, char charInput, int numberTwo, int result)
+        {
             if (charInput == sum)
             {
                 result = numberOne + numberTwo;
             }
             if (charInput == minus)
-            {            
-                if(numberOne > numberTwo && numberTwo < 0)
+            {
+                if (numberOne > numberTwo && numberTwo < 0)
                 {
-                    result = numberTwo - numberOne + numberOne + numberOne;                 
+                    result = numberTwo - numberOne + numberOne + numberOne;
                 }
                 else
                 {
                     result = numberOne - numberTwo;
-                }                              
+                }
             }
             if (charInput == multiply)
             {
@@ -54,11 +66,7 @@ namespace Calculator
                 result = numberOne / numberTwo;
             }
 
-            Console.WriteLine($"Your result is: {result}");
-            Console.WriteLine();
-            Console.WriteLine("All rights received@");
-            Console.WriteLine("2022");
-          
+            return result;
         }
 
         public static int CheckNumIfZero(char division, char charInput, int numberTwo)
