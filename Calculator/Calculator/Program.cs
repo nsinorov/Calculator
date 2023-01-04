@@ -35,7 +35,7 @@ namespace Calculator
 
             Console.WriteLine($"Your result is: {result}");
             Console.WriteLine();
-            Console.WriteLine("All rights stolen@ _|_");
+            Console.WriteLine("All rights stolen@joke");
             Console.WriteLine("2023");
 
         }
@@ -135,7 +135,7 @@ namespace Calculator
 
             Console.WriteLine($"Your result is: {result}");
             Console.WriteLine();
-            Console.WriteLine("All rights stolen@ _|_");
+            Console.WriteLine("All rights stolen@joke");
             Console.WriteLine("2023");
 
         }
